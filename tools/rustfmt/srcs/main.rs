@@ -11,7 +11,7 @@ fn main() {
     let targets = query_rustfmt_targets(&options);
 
     // Run rustfmt on these targets
-    apply_rustfmt(&options, &targets);
+   // apply_rustfmt(&options, &targets);
 }
 
 /// Perform a `bazel` query to determine a list of Bazel targets which are to be formatted.
